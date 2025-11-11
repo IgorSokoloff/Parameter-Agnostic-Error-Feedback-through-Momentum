@@ -42,6 +42,8 @@ Open the notebook inside the environment and follow the sections in order:
 
 > Need to refresh the plots after new training runs? Drop the newly produced pickles into `_release_data/` (or update the `folder` argument in `repro_plots.build_curve_specs`) and rerun the plotting cells.
 
+> **W&B login**: runs inherit whatever credentials are cached on the host. Before starting any training session, execute `wandb login --relogin` (or `wandb login` if the machine has never been authenticated) and paste the key from https://wandb.ai/authorize. To keep everything local, run `wandb offline` instead. All commands should be issued in the shell where `conda activate ef21-hess` was executed.
+
 ---
 
 ## 3. Running/tuning experiments
@@ -59,4 +61,3 @@ The `_release_data/` directory stores the metric pickles used to draw every figu
 ---
 
 Questions or issues? Please open a ticket so we can keep the public release in sync with the paper.
-
