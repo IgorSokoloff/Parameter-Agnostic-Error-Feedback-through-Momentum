@@ -1,5 +1,8 @@
 name: ef21-hess
 channels:
+  - pytorch
+  - nvidia
+  - conda-forge
   - defaults
 dependencies:
   - tornado=6.4.2
