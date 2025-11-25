@@ -4,6 +4,22 @@ Supporting code for **Improved Convergence in Parameter-Agnostic Error Feedback 
 
 ---
 
+## Reference
+
+If you find these methods or artifacts useful, please cite:
+
+```
+@misc{Sadiev2025EF21,
+  title  = {Improved Convergence in Parameter-Agnostic Error Feedback through Momentum},
+  author = {Abdurakhmon Sadiev and Grigory Malinovsky and Yury Demidovich
+            and Sarit Khirirat and Igor Sokolov and Peter Richt\'{a}rik},
+  year   = {2025},
+  note   = {Manuscript, Parameter-Agnostic EF through Momentum}
+}
+```
+
+---
+
 ## 1. Recreate the software environment
 
 Two Conda specs ship with the repo (both already embed the pip dependencies, so no extra `pip install` step is required):
